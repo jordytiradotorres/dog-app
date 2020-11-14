@@ -43,7 +43,7 @@ const Alphabet = () => {
 						className="animate__animated animate__fadeIn"
 					>
 						<img
-							src={process.env.PUBLIC_URL + "/images/dog.jpg"}
+							src={process.env.PUBLIC_URL + "./images/dog.jpg"}
 							alt="dog"
 						/>
 						<li className="grid-item">
