@@ -1,0 +1,49 @@
+.dog {
+  position: relative;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.dog h1 {
+  position: absolute;
+  bottom: 0;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.dog-item {
+  object-fit: cover;
+  height: inherit;
+  width:inherit;
+  display: block;
+  padding: 1em;
+}
+
+.btn {
+  text-align: center;
+  border: none;
+  background-color: peru;
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: Courier;
+  font-size: 1em;
+  font-weight: bold;
+  outline: none;
+  letter-spacing: 2px;
+  transition: all .3s;
+}
+.btn:hover {
+  background-color: rgb(177, 112, 47);
+}
